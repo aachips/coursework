@@ -18,6 +18,6 @@ function rawU($string="") {
 
 function h($string="") {
   return htmlspecialchars($string);
-}
+} // prevents cross site scripting to use for dynamic data fields
 
 ?>
