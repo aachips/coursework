@@ -1,6 +1,4 @@
 <?php
-  include('../initialize.php');
-  include('../functions.php');
 
   if(!isset($pageTitle)) 
     $pageTitle = 'Salamanders: Appalachian Southern Salamanders (A.S.S.)';
@@ -24,8 +22,8 @@
     </header>
     <nav>
       <ul>
-        <li><a href="<?php echo urlFor('C:\xampp\htdocs\Webtech\coursework\salamanders\SAS\public\salamanders\index.php'); ?>">Salamanders</a></li>
-        <li><a href="<?php echo urlFor('C:\xampp\htdocs\Webtech\coursework\salamanders\SAS\public\index.php'); ?>">Salamanders</a></li>
+        <li><a href="<?php echo urlFor('/'); ?>">Salamanders</a></li>
+        <li><a href="<?php echo urlFor('salamanders/'); ?>">Salamanders</a></li>
       </ul>
     </nav>
 
