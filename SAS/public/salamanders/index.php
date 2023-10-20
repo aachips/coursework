@@ -28,7 +28,7 @@ if(!isset($page_title)) {$page_title = 'Salamanders';}
         <tr>
           <td><?= $salamander['id'] ?></td>
     	    <td><?= $salamander['salamanderName'] ?></td>
-          <td><a href="<?php h(u('salamanders/show.php?id=' . h(u($salamander['id'])))); ?>">View</a></td>
+          <td><a href="<?= h(u('salamanders/show.php?id=' . h(u($salamander['id'])))); ?>">View</a></td>
           <td><a href="#">Edit</a></td>
           <td><a href="#">Delete</a></td>
     	  </tr>
