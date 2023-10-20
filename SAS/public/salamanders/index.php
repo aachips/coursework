@@ -15,7 +15,7 @@ if(!isset($page_title)) {$page_title = 'Salamanders';}
 <h1>Salamanders</h1>
 <a href="#">Create Salamander</a>
 
-<table>
+<table class="list">
   <tr>
     <th>ID</th>
     <th>Name</th>

@@ -54,9 +54,9 @@ nav ul li {
 
 footer {
   width: 940px;
-  height: 20px;
-  margin: 0 0 10px 0;
-  padding: 10px 20px;
+  /* height: 20px; */
+  margin: 0 10px;
+  padding: 10px;
   background: #0055DD;
   color: white;
 }
@@ -71,8 +71,8 @@ footer {
 /* Lists */
 
 table {
-  border-collapse: collapse;
-  vertical-align: top;
+  border: 1px double #000;
+  margin: 1rem;
 }
 
 table.list {

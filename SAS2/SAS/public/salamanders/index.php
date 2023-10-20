@@ -40,8 +40,8 @@ include_once(SHARED_PATH . '/salamander-header.php');
   
     <?php foreach($salamanders as $salamander) { ?>
       <tr>
-        <td><?= $salamander['id'] ?></td>
         <td><?= $salamander['salamanderName'] ?></td>
+        <td><?= $salamander['id'] ?></td>
         <!-- Use url_for with show.php AND h(u) with the salamander['id'] -->
         <td><a href="<?= h(u('salamanders/show.php?id=' . h(u($salamander['id'])))); ?>">View</a></td>
         <td><a href="#">Edit</a></td>
