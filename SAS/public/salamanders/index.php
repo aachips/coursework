@@ -28,9 +28,9 @@ if(!isset($page_title)) {$page_title = 'Salamanders';}
         <tr>
           <td><?= $salamander['id'] ?></td>
     	    <td><?= $salamander['salamanderName'] ?></td>
-          <td><a href="<?= h(u('salamanders/show.php?id=' . h(u($salamander['id'])))); ?>">View</a></td>
-          <td><a href="#">Edit</a></td>
-          <td><a href="#">Delete</a></td>
+          <td><a href="<?= h(u('show.php?id=' . h(u($salamander['id'])))); ?>">View</a></td>
+          <td><a href="<?= h(u('edit.php?id=' . h(u($salamander['id'])))); ?>">Edit</a></td>
+          <td><a href="<?= h(u('delete.php?id=' . h(u($salamander['id'])))); ?>">Delete</a></td>
     	  </tr>
       <?php } ?>
   	</table>
