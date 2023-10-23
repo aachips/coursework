@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   define("PRIVATE_PATH", dirname(__FILE__)); // gives current file path
   define("PROJECT_PATH", dirname(PRIVATE_PATH)); // gives root folder
   define("PUBLIC_PATH", PROJECT_PATH . '/public');
