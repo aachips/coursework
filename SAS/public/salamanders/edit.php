@@ -10,7 +10,7 @@ else
     echo 'No error'; 
     
 $page_title = 'Create Page';
-include(SHARED_PATH . '/staff-header.php'); ?>
+include(SHARED_PATH . '/salamander-header.php'); ?>
 
 <div id="content">
 
@@ -18,8 +18,8 @@ include(SHARED_PATH . '/staff-header.php'); ?>
     <h1>Create Subject</h1>
     <form action="<?php echo urlFor('/staff/subjects/edit.php?id=' . h(u($id))); ?>" method="post">
     <dl>
-        <dt>Menu name</dt>
-        <dd><input type="text" name="menu_name" value="<?= print "$menu_name"; ?>"></dd>
+        <dt>Salamander Name</dt>
+        <dd><input type="text" name="salamanderName" value="<?= print "$salamanderName"; ?>"></dd>
     </dl>
     <dl>
         <dt>Position</dt>
