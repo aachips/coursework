@@ -1,6 +1,6 @@
 <?=
-require_once('../../../private/initialize.php'); 
-if $_SERVER['REQUEST_METHOD'] === 'POST' {
+require_once('../../private/initialize.php');
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Handle form values sent by new.php
     $salamanderName = $_POST['salamanderName'] ?? '';

@@ -13,7 +13,7 @@ if(!isset($page_title)) {$page_title = 'Salamanders';}
 ?>
 
 <h1>Salamanders</h1>
-<a href="#">Create Salamander</a>
+<a href="new.php">Create Salamander</a>
 
 <table class="list">
   <tr>

@@ -22,8 +22,8 @@
     </header>
     <nav>
       <ul>
-        <li><a href="<?php echo urlFor('/'); ?>">Salamanders</a></li>
-        <li><a href="<?php echo urlFor('salamanders/'); ?>">Salamanders</a></li>
+        <li><a href="<?php echo urlFor('/'); ?>">Home of Salamanders</a></li>
+        <li><a href="<?php echo urlFor('salamanders/'); ?>">Public/Salamanders</a></li>
       </ul>
     </nav>
 
